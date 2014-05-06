@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Board	board.rb	/^class Board$/;"	c
+Game	game.rb	/^class Game$/;"	c
+Player	player.rb	/^class Player$/;"	c
+any_column?	board.rb	/^	def any_column?(mark)$/;"	f	class:Board
+any_row?	board.rb	/^	def any_row?(mark)$/;"	f	class:Board
+get_user_move	tic_tac_toe.rb	/^	def get_user_move(player, game)$/;"	f
+get_user_profile	tic_tac_toe.rb	/^	def get_user_profile(mark = nil)$/;"	f
+initialize	board.rb	/^	def initialize(rows,cols)$/;"	f	class:Board
+initialize	game.rb	/^	def initialize(player_one, player_two)$/;"	f	class:Game
+initialize	player.rb	/^	def initialize(name,mark)$/;"	f	class:Player
+insert_mark	board.rb	/^	def insert_mark(row,col,value)$/;"	f	class:Board
+is_column?	board.rb	/^	def is_column?(col, mark)$/;"	f	class:Board
+is_complete?	board.rb	/^	def is_complete?(mark)$/;"	f	class:Board
+is_done?	game.rb	/^	def is_done?$/;"	f	class:Game
+is_full?	board.rb	/^	def is_full?$/;"	f	class:Board
+is_left_diagonal?	board.rb	/^	def is_left_diagonal?(mark)$/;"	f	class:Board
+is_right_diagonal?	board.rb	/^	def is_right_diagonal?(mark)$/;"	f	class:Board
+is_row?	board.rb	/^	def is_row?(row,mark)$/;"	f	class:Board
+isdone	board.rb	/^	def isdone(arr, xo)$/;"	f	class:Board
+play	game.rb	/^	def play(x,y,mark)$/;"	f	class:Game
+to_s	board.rb	/^	def to_s$/;"	f	class:Board
+to_s	game.rb	/^	def to_s$/;"	f	class:Game
+win	game.rb	/^	def win(mark)$/;"	f	class:Game
